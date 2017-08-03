@@ -41,6 +41,15 @@ to the follwing
 ```
 This will allow the image 'Marker' to be used as the marker icon on the map. The JS code is included in this project for reference with the change made.
 
+* Add CSS supplied - this will create the maps height as shown below:
+
+```
+.acf-map { width: 100%; height: 600px; margin: 20px 0; }
+
+/* fixes potential theme css conflict */
+.acf-map img { max-width: inherit !important; }
+```
+
 * Use the .php file supplied to create a new page template, with filtering system.
 * Create your new page in WordPress, select your page template.
 
