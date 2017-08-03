@@ -46,4 +46,4 @@ This will allow the image 'Marker' to be used as the marker icon on the map. The
 
 ## Note
 * Make sure you create posts in Event post type.
-* If an image is not selected for the marker, a default is set on the '<div class="marker">'
+* If an image is not selected for the marker, a default is set on the ```<div class="marker">``` as shown here ```data-icon="<?php if (empty($marker)) { echo 'URL_TO_FALLBACK_IMAGE_HERE'; } else{ echo $marker; } ?>">```
